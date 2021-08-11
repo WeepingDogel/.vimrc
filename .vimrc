@@ -8,7 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'cespare/vim-toml'
 call plug#end()
 set guifont=DejaVu\ Sans\ Mono\ Book\ 12
-colorscheme evening
+"colorscheme evening"
 map <C-n> :NERDTreeToggle<CR>
 set number
 set nocompatible
@@ -20,5 +20,4 @@ set encoding=utf-8
 set t_Co=256
 filetype indent on
 set autoindent
-set tabstop=2
 set shiftwidth=4
